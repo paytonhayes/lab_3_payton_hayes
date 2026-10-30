@@ -1,0 +1,6 @@
+---
+title: "quarto.lab.3"
+author: "Payton Hayes"
+format: html
+editor: visual
+---
