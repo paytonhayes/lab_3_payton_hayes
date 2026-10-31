@@ -3,4 +3,30 @@ title: "quarto.lab.3"
 author: "Payton Hayes"
 format: html
 editor: visual
+
+project:
+  output-dir: docs
+
+execute:
+  echo: false
+  warning: false
+  message: false
+  
 ---
+
+#Install Packages
+install.packages(c(
+  "carData", "dplyr", "tidyr", "ggplot2",
+  "broom", "performance", "gt"
+))
+
+#Bring from Library 
+library(carData)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(broom)
+library(performance)
+library(gt)
+
+
